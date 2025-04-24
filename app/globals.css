@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: open-sans;
+    src: url("./fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: manrope;
+  src: url("./fonts/Manrope-VariableFont_wght.ttf");
+}
+
+*{
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: open-sans;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.manrope{
+ font-family: manrope;
+}
+
+.opensans{
+  font-family: open-sans;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eeeeee;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#0A2640;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #65E4A3;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
